@@ -3,11 +3,11 @@
 % Author: 罗雁天
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% 演示文稿转讲稿请取消注释以下两行
+% 演讲稿格式请取消注释以下两行
 %\documentclass[a4paper]{article} 
 %\usepackage{beamerarticle}
 
-% 演示文稿请取消注释以下一行
+% ppt格式请取消注释以下一行
 \documentclass[10pt]{beamer}
 
 % 导入所需要的包
@@ -23,8 +23,12 @@
 \usetheme{Boadilla}
 %\usetheme{Hannover}
 \useoutertheme[height=1.5cm]{sidebar}
+% 浅绿色主题
 \usecolortheme{spruce}
 \usecolortheme{lily}
+% 浅紫色主题
+%\usecolortheme{rose}
+%\usecolortheme{seahorse}
 \usefonttheme{professionalfonts}
 
 %\usepackage{ctex}
@@ -50,7 +54,7 @@
 % 设置文中代码格式
 \lstset{
 	columns=fixed,       
-	%	numbers=left,                                        % 在左侧显示行号
+	%numbers=left,                                       % 在左侧显示行号
 	numberstyle=\tiny\color{gray},                       % 设定行号格式
 	frame=none,                                          % 不显示背景边框
 	backgroundcolor=\color[RGB]{245,245,244},            % 设定背景颜色
